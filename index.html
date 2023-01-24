@@ -1,0 +1,135 @@
+  <!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/svg+xml" href="http://www.w3.org/html/logo/downloads/HTML5_Badge.svg">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+ 
+  <link rel="stylesheet" href="auto_complete.css">
+	<link rel="stylesheet" href="LinkFile/bootstrap.min.css">
+	<script src="LinkFile/bootstrap.min.js"></script>
+	<script src="LinkFile/jquery.min.js"></script>
+    <title>loading</title>
+
+    <script>
+
+        function pageRedirect() {
+
+            window.location.replace("home.html");
+
+        }      
+
+        setTimeout("pageRedirect()", 4000);
+
+    </script>
+
+    </head>
+	<style type="text/css" class="">
+	
+	/*Loader Css*/
+.preloader {
+	background-color: #fff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.lds-ellipsis {
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 64px;
+	text-align: center;
+	z-index: 9999;
+}
+.lds-ellipsis span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #FF324D;
+	-webkit-animation: ball-pulse-sync 1s 0s infinite ease-in-out;
+	animation: ball-pulse-sync 1s 0s infinite ease-in-out;
+}
+.lds-ellipsis span:nth-child(1) {
+	-webkit-animation:ball-pulse-sync 1s -.14s infinite ease-in-out;
+	animation:ball-pulse-sync 1s -.14s infinite ease-in-out
+}
+.lds-ellipsis span:nth-child(2) {
+	-webkit-animation:ball-pulse-sync 1s -70ms infinite ease-in-out;
+	animation:ball-pulse-sync 1s -70ms infinite ease-in-out
+}
+@-webkit-keyframes ball-pulse-sync {
+	33% {
+		-webkit-transform:translateY(10px);
+		transform:translateY(10px)
+ }
+	66% {
+		-webkit-transform:translateY(-10px);
+		transform:translateY(-10px)
+	}
+	100% {
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+}
+@keyframes ball-pulse-sync {
+	33% {
+		-webkit-transform:translateY(10px);
+		transform:translateY(10px)
+	}
+	66% {
+		-webkit-transform:translateY(-10px);
+		transform:translateY(-10px)
+	}
+	100% {
+		-webkit-transform:translateY(0);
+		transform:translateY(0)
+	}
+}
+	
+	</style>
+
+    <body>
+	<div class="preloader">
+			<div class="lds-ellipsis">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+
+    </body>
+ <script type="text/javascript" class="">
+ 
+ (function($) {
+    "use strict";
+
+    jQuery(document).ready(function($) {
+
+    });
+
+    jQuery(window).load(function() {
+        $(".preloader").fadeOut(1000);
+
+    });
+
+}(jQuery));
+ 
+ </script>
+    </html>
+

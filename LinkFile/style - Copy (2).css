@@ -1,0 +1,1583 @@
+body{
+	font-family:tahoma;
+	
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+.top_nav{
+	color:white;  
+	
+	
+ 
+  background-color: #9916C0; /* For browsers that do not support gradients */
+  background-image: linear-gradient(90deg, #9916C0, #350344); /* Standard syntax (must be last) */ 
+	
+} 
+
+
+.top_nav .brand-div{
+	 width:35%;
+	 float:left;
+	 
+ }
+ .top_nav .brand-div img{margin-left:50px;}
+ 
+ 
+.top_nav #bigNavbarNav ul .nav_list,.nav_list2{
+	display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+	
+} 
+ 
+.top_nav #bigNavbarNav ul .nav_list a {
+	display:block; 
+	 border-bottom:none;
+	 margin-right:12px;
+	  color:white;
+	 text-align:center;
+	  
+	 color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em; 
+  padding-bottom:10px;
+  font-size:13px;
+  display: inline-block; 
+  position: relative;
+  text-decoration:none;
+	 
+}
+
+.top_nav #bigNavbarNav ul .nav_list .contact_span{font-size:10px;}
+.top_nav #bigNavbarNav ul .nav_list2{
+	margin-top:4px;
+}
+.top_nav #bigNavbarNav ul .nav_list2 a{
+	
+	
+	margin-top:-10px;
+	display:block; 
+	 width:150px;	
+	 margin-right:12px;
+	 padding-left:12px;
+	 padding-right:12px;
+	 padding-bottom:10px;
+	 padding-top:10px;
+  text-align:center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  padding-bottom:20px;
+  padding-bottom:10px;
+  border:2px solid #EB1066;
+  border-radius:20px;
+  background:#EB1066;
+  color:black;
+  font-size:10px;
+  
+  transition: 0.7s;
+}
+.top_nav #bigNavbarNav ul .nav_list2 a:hover{
+	
+	margin-top:-10px;
+	display:block; 
+	 width:150px;	
+	 margin-right:12px;
+	 padding-left:12px;
+	 padding-right:12px;
+	 padding-bottom:10px;
+	 padding-top:10px;
+  text-align:center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  padding-bottom:20px;
+  padding-bottom:10px;
+  border:2px solid #EB1066;
+  border-radius:20px;
+ 
+  background:transparent;
+ 
+  font-size:10px;
+   
+  color:white;
+}
+.top_nav #bigNavbarNav ul .nav_list a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.top_nav #bigNavbarNav ul .nav_list a:hover:after { 
+  width: 100%; 
+  left: 0; 
+} 
+ 
+.top_nav #bigNavbarNav ul .job_post_span,.sign_up_span,.login_span{
+	padding-right:10px;
+}
+ 
+.top_nav #smallNavbarNav ul .nav_list,.nav_list2{
+	display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+	
+} 
+ 
+.top_nav #smallNavbarNav ul .nav_list a {
+	display:block; 
+	 border-bottom:none;
+	 margin-right:12px;
+	  color:white;
+	 text-align:center;
+	  
+	 color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em; 
+  padding-bottom:10px;
+  font-size:13px;
+  display: inline-block; 
+  position: relative;
+  text-decoration:none;
+	 
+}
+
+.top_nav #smallNavbarNav ul .nav_list .contact_span{font-size:10px;}
+.top_nav #smallNavbarNav ul .nav_list2{
+	margin-top:4px;
+}
+.top_nav #smallNavbarNav ul .nav_list2 a{
+	
+	
+	margin-top:-10px;
+	display:block; 
+	 width:150px;	
+	 margin-right:12px;
+	 padding-left:12px;
+	 padding-right:12px;
+	 padding-bottom:10px;
+	 padding-top:10px;
+  text-align:center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  padding-bottom:20px;
+  padding-bottom:10px;
+  border:2px solid #EB1066;
+  border-radius:20px;
+  background:#EB1066;
+  color:black;
+  font-size:10px;
+  
+  transition: 0.7s;
+}
+.top_nav #smallNavbarNav ul .nav_list2 a:hover{
+	
+	margin-top:-10px;
+	display:block; 
+	 width:150px;	
+	 margin-right:12px;
+	 padding-left:12px;
+	 padding-right:12px;
+	 padding-bottom:10px;
+	 padding-top:10px;
+  text-align:center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  padding-bottom:20px;
+  padding-bottom:10px;
+  border:2px solid #EB1066;
+  border-radius:20px;
+ 
+  background:transparent;
+ 
+  font-size:10px;
+   
+  color:white;
+}
+.top_nav #smallNavbarNav ul .nav_list a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.top_nav #smallNavbarNav ul .nav_list a:hover:after { 
+  width: 100%; 
+  left: 0; 
+} 
+ 
+.top_nav #smallNavbarNav ul .job_post_span,.sign_up_span,.login_span{
+	padding-right:10px;
+}
+
+.top_nav .navbar-toggler{
+		float:right;
+}
+
+.top_nav #smallNavbarNav{
+	border:none;
+	background:transparent;
+}
+
+/****************** Modal CSS Design Start********************/
+
+#login_form .btn-primary{
+	width:100%;
+}	
+
+#login_form .orDiv{
+ margin-left:25%;
+}
+#signup_form .text-center{
+	margin-top:15px;
+}
+#signup_form a{text-decoration:none;}
+#signup_form .active-btn{
+	
+	background:#EB1066;
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-radius:4px;
+	margin-right:10px; 
+}
+.social_div{
+	width:100%;
+	text-align:center;
+	
+}
+.social_div a{
+	display:block;
+	float:left;
+	text-decoration:none;
+}
+#signup_form .signup_las_part_hide{
+	width:100%;
+	display:none;
+}
+
+#signup_form .show-morex{
+	 
+	width:100%;
+	height:50px;
+	padding-top:13px;
+	text-align:center;
+	background:#9916C0;
+  
+}
+.google_btn{
+	
+	 border-radius:2px;
+	 margin-left:1%;
+	width:48%;
+	height:50px;
+	color:white;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:13px;
+	text-align:center;
+	background:#db4a39;
+	padding-top:10px;
+	padding-bottom:10px;
+ 
+}
+.facebook_btn{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	 border-radius:2px; 
+	 margin-left:1%;
+	width:48%;
+	height:50px;
+	color:white;
+	padding-top:13px;
+	text-align:center;
+	background:#3b5998;
+ 
+}
+.facebook_btn:hover{
+	 border-radius:2px; display:block;
+	 margin-left:1%;
+	width:48%;
+	height:50px;
+	color:white;
+	padding-top:13px;
+	text-align:center;
+background:#3b5998;
+text-decoration:none;
+}
+.google_btn:hover{
+	display:block;
+	text-decoration:none;
+	 border-radius:2px;
+	 margin-left:1%;
+	width:48%;
+	height:50px;
+	color:white; 
+	text-align:center;
+	background:#db4a39;
+ 
+}
+.facebook_btn sapn{
+	display:block;
+	padding-left:30px;
+} 
+#signup_form .google_btn sapn{
+	display:block;
+	padding-left:30px;
+}
+#signup_form .confirm{
+	 
+	width:100%;
+	height:50px;
+	padding-top:13px;
+	text-align:center;
+	background:#9916C0;
+  
+}
+ 
+#signup_form .blue-text:hover{
+	text-decoration:underline;
+}
+#signup_form .show-morex:hover{
+	width:100%;
+	height:50px;
+	padding-top:13px;
+	text-align:center;
+	background:#EB1066;
+}
+ #signup_form .confirm:hover{
+	width:100%;
+	height:50px;
+	padding-top:13px;
+	text-align:center;
+	background:#EB1066;
+}
+ 
+#signup_form .signup_las_part_show{
+	width:100%;
+	display:block;
+}
+.hide{display:none;}
+.show{display:block;}
+#signup_form .deactive-btn{
+	border:2px solid #EB1066;
+	margin-left:10px;
+	color:black;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	
+	padding-top:10px;
+	border-radius:4px;
+}
+#login_form .orText{
+	display:block;
+	text-decoration:none;
+	color:red;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+}
+#login_form .or{
+	 border: 0.5px solid gray;
+	 width:30%;
+	 
+	 float:left;
+}
+ 
+#login_form .forgotpass{
+	
+	display:block;
+	float:right;
+	text-decoration:underline;
+	color:red;
+	padding-top:0px;
+	margin-top:0px;
+	font-size:15px;
+}
+#login_form .btn-primary:hover{
+	background:#9916C0;
+	width:100%;
+}
+.signup_option{
+	margin-left:25%;
+	
+}
+.signup_option hr{
+	border: 0.5px solid gray;
+	 width:30%;
+	 
+	 float:left;
+} 
+.signup_option span{ 
+	display:block;
+	text-decoration:none;
+	color:red;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+}
+.small{
+	overflow:hidden;
+}
+/****************** Modal CSS Design End********************/
+
+/****************Start Body CSS**************/
+
+.over_view_jobs{
+	 margin-top:20px;
+	 
+ }
+ .over_view_demo div{
+	 
+	 float:left;
+	 
+	 
+	 
+ } 
+ .over_view_demo .job_details{
+	 margin-top:20px;
+	 margin-bottom:20px;
+ }
+
+.divisional_job{
+	
+	
+	background:#9916C0;
+	padding-bottom:20px;
+	
+}
+.divisional_job .division_tag{
+	
+	display:block;
+	
+	padding-left:14px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-decoration:none;
+	color:white;
+}
+.over_view_demo .liv_job{
+	width:200px;
+	height:200px; 
+	background:red;
+	border-radius:50%;
+	display:block; 
+	
+}
+  
+.over_view_demo .wave_sign_tag{
+	display:block;
+	 
+  width: 50px; 
+  height:50px;
+	border-radius:50%;
+	background:#9916C0;
+}
+.over_view_demo .wave_sign{
+ display: block; 
+ padding-top:0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px; 
+  height:30px;
+  transform: rotate(-20deg);
+}
+.over_view_demo .wave_sign2{
+ display: block; 
+ padding-top:0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px; 
+  height:30px;
+  transform: rotate(0deg);
+}
+.divisional_job .job_btn{
+	float:left; 
+	font-size:15px;
+	text-decoration:none;
+	padding-left:14px;
+	padding-right:14px;
+	padding-bottom:4px;
+	border:1px solid #ffff; 
+	margin-left:10px; 
+	margin-top:10px;
+	color:white;
+	border-radius:4px;
+	padding-top:4px;
+	
+}
+.divisional_job .job_btn .count_job{
+	padding-left:10px;
+}
+ 
+.over_view_demo .circle { border-radius: 50%; }
+
+.over_view_demo .outer {
+	background-color:#9916C0;
+	width:50px;
+	border:0.5px solid #9916C0;
+	height:50px;
+	position:relative;
+}
+
+.over_view_demo .inner {
+background-color:#9916C0;
+top: 3%; left:3%;
+
+border:6px solid white;
+width:94%;
+height:94%;
+position: relative;
+}
+
+.over_view_demo .live_job .live_job_details .text,.count{
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	font-size:16px;
+	font-weight:bold;
+
+	
+}
+
+.divisional_job .quick_tag{
+	display:block;
+	float:left;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+.divisional_job .quick_tag_text{
+	padding-left:2px;
+	font-size:12px;
+	padding-right:10px;
+	color:white;
+cursor: pointer;
+transition: all ease-in-out .2s;
+
+}
+.divisional_job .quick_tag:hover .quick_tag_text{
+	
+	 border-bottom:2px solid #EB1066;
+	 padding-bottom:2px
+	 
+} 
+.search_content .button{
+		border:none;
+		background:white;
+		border-right:none;
+		padding-right:10px;
+		border-radius:2px;
+}
+.find_job_title{
+	display:block;
+	font-size:20px;
+	font-weight:bold;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.search_content .search_input{
+	border:none; 
+	 
+}
+.search_content{ 
+	background:#9916C0;
+	width:100%;
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px; 
+	padding-bottom:20px;
+	
+}
+.popular_job_text{
+	display:block;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:10px;
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+}
+.popular_job_text2{
+	
+	text-align:center; 
+	padding-bottom:10px;
+	font-size:17px;
+	text-decoration:none;
+	color:black;
+	
+}
+
+.card {
+	width:100%; 
+	padding-top:40px;
+	padding-bottom:40px;
+	display:block;
+	text-align:center;
+}
+.card .fa-fa-span-img img{
+	height:60px;
+	width:70px;
+}
+.card a{
+	text-decoration:none;
+	display:block;
+	color:black;
+}
+.card .fa-fa-line{
+	color:#EB1066;
+	
+}
+.card .fa-fa-span-text{
+	color:black;
+	font-size:20px;
+	text-decoration:none;
+}
+.card .fa-fa-span-img{
+	font-size:35px;
+	padding-top:20px;
+	font-weight:bold;
+	color:black;
+}
+.company_logo{
+	float:right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card:hover .fa-fa-span-img{
+	color:#9916C0;
+}
+
+.align-middle{
+	width:100%; 
+	padding-bottom:15px;
+	padding-top:50px;
+	text-align:center;
+}
+
+.align-middle .browse-btn{
+	background:#ffff;
+	border:2px solid #EB1066;
+	display:block;
+	width:200px;
+	height:50px; 
+	border-radius:4px;
+	margin:0 auto; 
+  transition: 0.3s;
+}
+
+.align-middle .browse-btn .text{
+	display:block; 
+	font-size:20px;
+	color:black;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.align-middle .browse-btn:hover .text{
+	color:white;
+	display:block; 
+	font-size:20px; 
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.align-middle .browse-btn:hover{
+	background:#EB1066; 
+	
+}
+.each_job_overveiw .logo_div{
+	 
+	float:right; 
+}
+.each_job_overveiw .details_div{
+	 
+	float:right;
+}
+.job_info_experice{
+	width:100%;
+	padding-bottom:30px; 
+ }
+.job_info_experice .experice_div{
+	width:50%;
+	float:left; 
+}
+.job_info_experice .date_div .date_div_tag{float:right;padding-bottom:5px;}
+.job_info_experice .date_div{
+	 width:100%;padding-bottom:0px;
+	padding-right:10px;
+}
+.job_info_experice .exp_div{
+	display:block; 
+	width:100%;  
+	padding-left:16px;
+}
+
+.details_div a{
+	text-decoration:none;
+	color:black;
+}
+.details_div .location_name{
+	color:black;
+}
+
+.details_div .img_span_location{
+ 
+	float:left;
+	padding-left:4px; 
+}
+.each_job_overveiw .text2{
+	color:black;
+	font-size:15px;
+	padding-left:10px;
+}
+.each_job_overveiw .text{
+	color:black;
+	font-size:15px;
+	padding-left:17px;
+}
+.job_info_experice .text{
+	color:black;
+	font-size:15px;
+	padding-left:15px;
+}
+.exp_div .img_span{ 
+	color:black;
+}
+.details_div .img_span{ 
+	color:black;
+}
+.details_div .fixed_location{
+ 
+	float:left;
+}
+ 
+.details_div .job_title{
+	   
+   display: inline-block;
+    color: #EB1066;
+	font-weight:bold;
+	font-size:20px;
+    text-decoration: none;
+		 
+} 
+.details_div .company_name{
+	   
+  
+	font-weight:bold; 
+		 
+}
+.job_heading{
+	width:100%;
+}
+.job_heading h4{
+	text-align:center;
+	padding-top:20px;
+}
+.job_heading p{
+	text-align:center;
+	padding-top:0px;
+}
+ 
+.details_div .job_title::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #EB1066;
+    transition: width .3s;
+}
+
+.details_div .job_title:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+.education_div{
+	
+	padding-right:0px;
+	width:100%;
+}
+.job_card{
+	margin-top:10px;
+	 border:0.5px solid gray;
+	padding-right:0px; 
+	transition: 0.3s;
+} 
+.job_card{
+	margin-top:10px;
+	 border:0.5px solid gray;
+	padding-right:0px; 
+	transition: 0.3s;
+} 
+ 
+.noHover{
+	float:left;
+	width:100px;
+	padding-left:1px;
+	padding-right:1px;
+	
+    pointer-events: none;
+}
+ 
+
+/* On mouse-over, add a deeper shadow */
+.job_card:hover {
+  box-shadow: 0 1px 1px 0 rgba(0.1,0.1,0.1,0.1);
+}
+
+
+.for_small{
+	display:none;
+}	
+.for_big{
+	display:block;
+}
+
+.notice_title{
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:2px;
+	padding-top:20px;
+	color:#EB1066;
+}
+
+.notice_title2{
+	text-align:center;
+}
+
+
+/** ********** Footer Start ***********/
+
+
+.FooterDiv{
+	
+	/* height:400px; */
+	background:black;
+	color:white;
+	
+}
+.foot_top{
+	height:300px;
+	color:white;
+}
+.foot_dawn{
+	/* height:100px; */
+	background:black;
+	color:white;
+}
+.contractInfo{
+	height:80%;
+	width:100%;
+	background:black;
+	color:white;
+	float:left;
+
+}
+
+.facebook{
+	height:80%;
+	width:100%;
+	background:black;
+	color:white;
+	float:left;
+}
+.TW_YB{
+	height:80%;
+	width:100%;
+	color:white;
+	background:black;
+	float:left;
+}
+
+
+.mail{
+	height:80%;
+	width:100%;
+	color:white;
+	background:black;
+	float:left;
+}
+.hr{
+	bottom:2px solid black;
+}
+.head-line{
+	display:block;
+	text-decoration:underline;
+	color:white;
+	border-bottom:2px blue solid;
+	width:30%;
+	
+}
+.footer{
+	
+	width:100%;
+	background:black;
+	
+}
+.mail input{
+	width:70%;
+	height:35px;
+	float:left;
+}
+.mail a{
+	display:block;
+	width:70px;
+	height:35px;
+	text-align:center;
+	 
+	padding-top:9px;
+	
+	margin-left:10px;
+	border-radius:2px;
+	float:left;
+}
+.mail a:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.mail a:hover{
+	display:block;
+	background:black;
+	color:white;
+}
+
+.mail .follow{
+		 
+		padding-top:30px;
+		padding-left:0px;
+}
+.mail .follow ul{
+	display:block;
+	margin-top:0px;
+	width:100%;
+	margin-left:0px; 
+	
+}
+.mail .follow ul a{
+	
+	display:block; 
+	}
+.mail .follow ul li {
+	list-style-type: none;
+	float: left; 
+	margin-top:10px;
+		
+}
+
+
+.mail .follow ul li a i {
+	
+	color:#C0C0C0;
+	width: 1.5%;
+	height: 1.5%;
+	font-size: 15px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 5%;
+
+}
+
+.mail .follow ul .FB a{
+	display:block;
+	color:white;
+	background:#3b5998;
+
+}
+
+.mail .follow ul .GP a{
+	display:block;
+	color:white;
+	background:#DD4B39;
+	
+}
+.mail .follow ul .YB a{
+	display:block;
+	color:white;
+	background:#c4302b;
+
+}
+
+.mail .follow ul .TW a{
+	display:block;
+	color:white;
+	background:#38A1F3;
+	
+}
+.mail .follow ul .SP a {
+	display:block;
+	color:white;
+	background:#00aff0;
+	
+}
+.mail .follow .head{
+	display:block;
+	margin-top:20px;
+}
+
+.foot_dawn .a{
+	height:60px;
+	
+	background-color: #9916C0;
+	width:30%;
+	
+	float:left;
+}
+
+.foot_dawn .b{
+	height:60px;
+	width:30%;
+	background-color: #9916C0;
+	float:left;
+}
+.foot_dawn .c{
+	height:60px;
+	background-color: #9916C0;
+	width:40%;
+	float:left;
+}
+.foot_title{
+	width:100%;
+	background:#34495e;
+}
+.foot_dawn a{
+	padding-top:2px;
+	padding-left:10px;
+	display:block;
+	color:white;
+	float:left;
+}
+.foot_dawn a:hover{
+	display:block;
+	color:white;
+}
+
+
+
+
+/***************** End Body CSS**************/
+/****************************Owl Carosaul Start****************************/
+
+
+.notice_board .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.notice_board .owl-nav button.owl-prev {
+  left: 0;
+}
+.notice_board .owl-nav button.owl-next {
+  right: 0;
+}
+
+.notice_board .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.notice_board .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+
+.notice_board .owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+
+.notice_board .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+.notice_board .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.notice_board span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+
+.notice_board .owl-nav button:focus {
+    outline: none;
+}
+/****************************Owl Carosaul END****************************/
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+	body{
+	/*  background:red; */
+	}
+	
+	.footer_head{
+		display:none;
+	}
+.top_nav .brand-div{
+	 width:100%;
+	 float:left;
+	 
+ }
+.top_nav #btn2{
+		display:none;
+	}
+.top_nav #btn1{
+		display:block;
+	}
+	
+
+.card{
+	padding:0px;
+	margin:0px;
+}
+.card{ 
+	padding:0px;
+	width:100%; 
+	padding-top:10px;
+	padding-bottom:30px;
+	margin-bottom:10px; 
+	display:block;
+	text-align:center;
+}
+.card a{
+	text-decoration:none;
+	display:block;
+	color:black;
+}
+.card .fa-fa-line{
+	color:#EB1066;
+	font-size:16px;
+}
+.card .fa-fa-span-text{
+	color:black;
+	font-size:10px; 
+	width:100%;
+	text-decoration:none;
+}
+.card .fa-fa-span-img img{
+	height:40px;
+	width:40px;
+}
+.card .fa-fa-span-img{
+	 
+	padding-top:0px;
+	font-weight:bold;
+	color:black;
+}
+.company_logo{
+	float:right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+}
+
+@media only screen and (max-width: 772px) {
+	body{
+/*  background:gray; */
+	}
+	.top_nav #btn1{
+		display:none;
+	}
+	.top_nav #btn2{
+		display:block;
+	}
+.top_nav #smallNavbarNav{
+	display:none;
+	}
+	
+	
+	/****Job Details STart*****/
+	
+	
+	
+.over_view_jobs{
+	 margin-top:10px;
+	 
+ }
+ .over_view_demo div{
+	 
+	 float:left;
+	 
+	 
+	 
+ } 
+ .over_view_demo .job_details{
+	 margin-top:10px;
+	 margin-bottom:10px;
+ }
+
+.divisional_job{
+	
+	
+	background:#9916C0;
+	padding-bottom:20px;
+	
+}
+.divisional_job .division_tag{
+	
+	display:block;
+	
+	padding-left:14px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-decoration:none;
+	color:white;
+}
+.over_view_demo .liv_job{
+	width:100px;
+	height:100px; 
+	background:red;
+	border-radius:50%;
+	display:block; 
+	
+}
+  
+.over_view_demo .wave_sign_tag{
+	display:block;
+	 
+  width: 20px; 
+  height:20px;
+	border-radius:50%;
+	background:#9916C0;
+}
+.over_view_demo .wave_sign{
+ display: block; 
+ padding-top:0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px; 
+  height:20px;
+  transform: rotate(-20deg);
+}
+.over_view_demo .wave_sign2{
+ display: block; 
+ padding-top:0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px; 
+  height:20px;
+  transform: rotate(0deg);
+}
+.divisional_job .job_btn{
+	float:left; 
+	font-size:10px;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	border:1px solid #ffff; 
+	margin-left:26px; 
+	margin-top:6px;
+	color:white;
+	border-radius:2px;
+	padding-top:2px;
+	
+}
+.divisional_job .job_btn .count_job{
+	padding-left:4px;
+}
+ 
+.over_view_demo .circle { border-radius: 50%; }
+
+.over_view_demo .outer {
+	background-color:#9916C0;
+	width:30px;
+	border:0.5px solid #9916C0;
+	height:30px;
+	position:relative;
+}
+
+.over_view_demo .inner {
+background-color:#9916C0;
+top: 3%; left:3%;
+
+border:2px solid white;
+width:94%;
+height:94%;
+position: relative;
+}
+
+.over_view_demo .live_job .live_job_details .text,.count{
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:6px;
+	padding-top:6px;
+	font-size:10px;
+	font-weight:bold;
+
+	
+}
+
+.divisional_job .quick_tag{
+	display:block;
+	float:left;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+.divisional_job .quick_tag_text{
+	padding-left:2px;
+	font-size:12px;
+	padding-right:10px;
+	color:white;
+cursor: pointer;
+transition: all ease-in-out .2s;
+
+}
+.divisional_job .quick_tag:hover .quick_tag_text{
+	 border-bottom:2px solid #EB1066;
+	 padding-bottom:2px
+	 
+} 
+.search_content .button{
+		border:none;
+		background:white;
+		border-right:none;
+		padding-right:10px;
+		border-radius:2px;
+}
+.find_job_title{
+	display:block;
+	
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:20px;
+	padding-top:40px;
+}
+.search_content .search_input{
+	border:none; 
+	display:block;
+	 height:40px;
+}
+.search_content{ 
+	background:#9916C0;
+	width:100%;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px; 
+	padding-bottom:0.2px;
+	
+}
+	/****Job Details END*****/
+	/*********/
+	
+
+.card {
+	width:100%; 
+	padding-top:40px;
+	padding-bottom:40px;
+	display:block;
+	text-align:center;
+}
+.card a{
+	text-decoration:none;
+	display:block;
+	color:black;
+}
+.card .fa-fa-line{
+	color:#EB1066;
+	
+}
+.card .fa-fa-span-text{
+	color:black;
+	font-size:20px;
+	text-decoration:none;
+}
+.card .fa-fa-span-img img{
+	height:60px;
+	width:70px;
+}
+.card .fa-fa-span-img{
+	font-size:35px;
+	padding-top:20px;
+	font-weight:bold;
+	color:black;
+}
+.company_logo{
+	float:right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+.card:hover .fa-fa-span-img{
+	color:#9916C0;
+} 	
+.job_info_experice{
+	width:100%;
+	padding-bottom:0px;
+	padding-left:10px;
+ } 
+ 
+ 
+.job_info_experice .exp_div{
+	display:block; 
+	width:100%; 
+	float:left;
+	padding-left:0px;
+} 
+.job_info_experice .date_div .date_div_tag{display:block;float:left;padding-bottom:20px;}
+.job_info_experice .date_div{
+	width:100%; 
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+.company_logo{
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+}
+.job_info_experice .exp_div{
+	display:block; 
+	width:100%;  
+	padding-left:7px;
+}
+
+.details_div a{
+	text-decoration:none;
+	color:black;
+}
+.details_div .location_name{
+	color:black;
+}
+
+.details_div .img_span_location{
+ 
+	float:left;
+	padding-left:4px; 
+}
+.each_job_overveiw .text2{
+	color:black;
+	font-size:15px;
+	padding-left:10px;
+}
+.each_job_overveiw .text{
+	color:black;
+	font-size:15px;
+	padding-left:17px;
+}
+.job_info_experice .text{
+	color:black;
+	font-size:15px;
+	padding-left:13px;
+}
+.job_info_experice .calendar{
+	padding-left:7px;
+	
+	
+}
+
+.exp_div .text{
+	color:black;
+	font-size:10px;
+}
+.date_div_tag .text{
+	color:black;
+	font-size:10px;
+}
+.exp_div .img_span{ 
+	color:black;
+	float:left;
+}
+.details_div .img_span{ 
+	color:black;
+}
+.details_div .fixed_location{
+ 
+	float:left;
+}
+.details_div .job_title{
+	   
+   display: inline-block;
+    color: #EB1066;
+	
+	font-weight:bold;
+	font-size:14px;
+    text-decoration: none;
+		 
+} 
+.details_div .company_name{
+	   
+  
+	font-size:14px;
+	font-weight:bold; 
+		 
+}
+.job_name{
+	padding-right:0px;
+	padding-left:0px;
+}
+.for_small{
+	display:block;
+}	
+.for_big{
+	display:none;
+}
+.footer_head{
+	display:none;
+}	
+	
+	
+	
+
+}

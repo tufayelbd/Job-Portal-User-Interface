@@ -1,0 +1,358 @@
+ 
+.band .logo .logo-icon{
+	height:40px;
+	width:65px;
+	
+}
+.band .logo{
+	float:left;
+	
+}
+.band .button{
+	display:block;
+	border:none;
+	background:transparent;
+	float:right;
+}
+.band .button button{ 
+ float: right; 
+ border:none;
+ background:transparent;
+	
+}
+ 
+ 
+.search-div  span{ 
+border:none;
+font-size:	16px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:35px;
+padding-right:35px;	
+color:white;
+background:red;
+	
+}
+.user-option-outer-div{
+	width: 100%; 
+text-align: center;
+}
+.user-option{display: inline-block; 
+margin: 0 auto;}
+.user-option a{
+	display:block;
+	text-align:center;
+	font-size:19px;
+	padding-left:10px;
+	padding-right:8px;
+	color:#5A5858;
+	float:left;  
+	
+
+	
+}
+.single_bar{
+	float:right;
+	padding-left:20px;
+	opacity:0.25;
+	
+}
+ 
+
+
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  
+  border: 2px solid red;
+  border-right: none;
+  padding: 5px;
+  padding-left:20px;
+	border-radius:10px;  
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px; 
+  padding-left:30px;
+  padding-right:45px;
+  border: 1px solid red;
+  background:red;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 100%;
+   
+}
+.searchTerm{position:relative;}
+.search .cross{
+	display:none;
+	text-decoration:none;
+	font-weight:bold;
+	position: absolute;
+	 right: 100px;
+	 top: 10%;
+}
+.user_logo_div{
+	display:none;
+}
+
+.home_hide_tag span{
+	display:none;
+}
+
+/*********************Side Nav Start ***************/
+.overlay {
+   height: 100%;
+  width: 400px;
+  background:white;
+  position: fixed;  
+  z-index: 1;  
+  left: 0;
+  top: 0;
+ 
+ 
+ 
+ 
+ }
+
+ 
+ .overlay2 {
+   height: 100%;
+  width: 400px;
+  background:white;
+  position: fixed;  
+  z-index: 1;  
+  left: 0;
+  top: 0;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+
+.sideNavTop{
+	margin-top:30px;
+	position:relative;
+}
+.closebtn{
+	display:block;
+	font-size:30px;
+	position:absolute;
+	top:0;
+	right:20px;
+	text-decoration:none;
+	color:black;
+	
+}
+.closebtn:hover{
+	color:black;
+	display:block; 
+	text-decoration:none;
+	 
+	
+}
+.sideNavLogo img{
+	width:100px;
+	height:60px;
+	float:left;
+	padding-left:50px;
+	
+	
+	
+}
+ 
+.sideNavOfferDiv{
+	margin-top:30px; 
+	text-align:center;
+	width:300px;
+	height:50px;
+	border:2px solid gray;
+	border-bottom:none;
+	
+}
+.sideNavLoginDiv{
+	text-align:center;
+	width:300px;
+	border:2px solid gray;
+	
+	height:50px;
+	
+	}
+.sideNavLoginDiv .button{
+	display: inline-block; 
+	margin: 0 auto; 
+	padding-top:7px;
+	 
+ 
+}
+.button button{
+	width:200px;
+	color:red;
+	border:none;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+ 
+.sideNavSecondDiv{
+	padding-left:40px;
+	padding-right:40px; 
+}
+.overlay-content{
+	width:100%;
+	background:red;
+	margin-top:30px;
+	position:relative;
+}
+
+
+.overlay-content a{
+	display:block;
+	text-align:left;
+	font-size:15px;
+	color:black;
+	text-decoration:none;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:10px;
+padding-bottom:10px;
+padding-left:40px;	
+}
+
+.overlay-content .shop_1st_span{
+	padding-right:15px;
+	
+}
+.overlay-content .shop_3rd_span{
+	float:right;
+	padding-right:15px;
+	font-size:20px;
+	
+	
+}
+
+
+
+
+
+/**************Side Nav End********************/
+
+
+
+
+
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+  
+  .single_bar{
+	display:none;
+ }
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 767px) {
+  body {
+    background-color: red;
+  }
+  
+.user_logo_div{
+	display:block;
+	padding-left:20px;
+	font-size:25px;
+	color:black;
+
+}
+.user_logo_div a{
+	display:block;
+	color:black;
+}
+  .band .logo{
+	  padding-top:10px;
+	 padding-bottom:10px;
+	float:right;
+	width:70%;  
+	text-align: center
+	
+	
+	
+}
+.band .button{
+	padding-top:10px;
+	padding-bottom:10px;
+	float:left; 
+	width:30%;
+}
+ 
+.band .button button{ 
+ float: left; 
+ border:none;
+ background:transparent;
+	
+}
+.logo-user-center{
+	display: inline-block; 
+	margin: 50 auto;
+	
+}
+.user_hide_tag{
+	
+	display:none;
+}
+.home_hide_tag span{
+	display:block;
+}
+}
+ /************************
+ 
+ .logo_div1{
+	display: inline-block; 
+	margin: 50 auto;
+	
+}
+ 
+ *************************/
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+  .user-option-outer-div{
+	  position:fixed;
+	  background:white;
+	  width:100%;
+	  left:0;
+	  bottom:0;
+	  padding-bottom:10px;
+	  padding-top:10px;
+  }
+}
